@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <!-- Table TAG แท็กที่ใช้ในการทำตาราง อยู่ในกลุ่ม Block TAG เป็นแบบ TAG คู่-->
-    <!-- ตารางที่ทุกแถวมีจำนวนคอลัมขนาดเท่ากัน(Row แถว/ column สตุสภ์) -->
-    <tabel border="1px" width="600">
-        <tr>  
-        </tr>
+    <!-- Table TAG แท็กที่ใช้ในการทำตางราง อยู่ในกลุ่ม Block TAG เป็นแบบ TAG คู่ -->
+    <!-- ตารางที่แถวที่จำนวนคอลัมน์เท่ากัน (Row / Column) สดมภ์ -->
+    <h1>ตารางแบบที่ 1</h1>
+    <table border="1px" width="600">
         <tr>
-         </tr>
-        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
         </tr>
         <tr>
             <td>11</td>
@@ -22,16 +26,86 @@
             <td>44</td>
             <td>55</td>
         </tr>
-    </tabel>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+            <td>55</td>
+        </tr>
+    </table>
 
 
 
 
-     <!-- ตารางที่ทุกแถวมีจำนวนคอลัมขนาดไม่เท่ากัน(Row แถว/ column สตุสภ์) -->
+    <!-- ตารางที่แต่ละแถวที่จำนวนคอลัมน์เท่ากัน (Row / Column)สกมภ์ -->
+    <h1>ตารางแบบที่ 2 (แต่ละช่องของตารางขนาดไม่เท่ากัน)</h1>
+    <table style="text-align: center;" border="1px" width="500">
+        <tr style="background-color: yellow;">
+            </tr>
+            <td colspan="2" rowspan="2">a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td colspan="2">e</td>
+            <td colspan="2" rowspan="2">f</td>
+        </tr>
+        <tr>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td rowspan="3">j</td>
+        </tr>
+        <tr>
+            <td colspan="3">k</td>
+            <td>l</td>
+        </tr>
+        <tr>
+            <td colspan="2">m</td>
+            <td>n</td>
+            <td>o</td>
+        </tr>
+    </table>
+<br>
+<h1>workshop Tabel ครั้งที่1</h1>
+    <table border="1px" width="600" style="text-align: center;">
+    <tr style="background-color: yellow;">
+        <td colspan="2"rowspan="2">a</td>
+        <td>b</td>
+        <td>c</td>
+        <td colspan="2">d</td>
+<tr style="background-color: blue;">
+     <td colspan="2">e</td>
+</tr>
+<tr style="background-color: darkgreen;">
+    <td rowspen="2">f</td>
+    <td colspan="2">g</td>
+    <td>h</td>
 
 
 
-
-
+    </tr>  
+      <tr style="background-color: darkgreen;">
+    <td></td> jf</td>
+    <td colspan="2">g</td>
+    <td>h</td>
+    </table>
 </body>
+
 </html>
